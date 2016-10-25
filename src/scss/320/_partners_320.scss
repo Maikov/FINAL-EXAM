@@ -29,6 +29,8 @@
         margin: 20px auto $center;
         position: relative;
         overflow: hidden;
+        margin-bottom: 25px;
+
 
           .partner-block--second {
             height: 235px;
@@ -49,10 +51,12 @@
             }
     
             .photo-partner3 {
+              margin-top: 30px;
               @include sprite(120px, 120px, $sprite, -122px -122px)
             }
     
             .photo-partner4 {
+              margin-top: 30px;
               @include sprite(121px, 120px, $sprite, -123px 0px)
             }
             
@@ -71,10 +75,12 @@
             }
     
             .icon-3 {
+              margin-top: 30px;
               @include sprite(41px, 41px, $sprite, -246px -43px)
             }
     
             .icon-4 {
+              margin-top: 30px;
               @include sprite(41px, 41px, $sprite, -246px -86px)
             }
             
@@ -109,7 +115,7 @@
           text-align: center;
           border: 2px solid $button-color;
           border-radius: 23px;
-          margin: 30px auto $center;
+          margin: 27px auto $center;
         }
         
         .partners__button:hover {

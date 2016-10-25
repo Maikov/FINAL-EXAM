@@ -1,11 +1,12 @@
 // FOOTER 320px Mobile
 @media screen and (max-width: 767px) {	
 footer {
+  width: 320px;
   border-top: 4px solid $button-color;
   padding-bottom: 18px;
   position: relative;
   overflow: hidden;
-  margin-top: 40px;
+  margin: $center;
 }
 
 .footer__title {

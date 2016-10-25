@@ -264,7 +264,8 @@ table {
       height: 206px;
       margin: 20px auto 0 auto;
       position: relative;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-bottom: 25px; }
       .partners .partner-block .partner-block--second {
         height: 235px; }
       .partners .partner-block .photo {
@@ -282,11 +283,13 @@ table {
         background-image: url(../../build/img/sprite.png);
         background-position: 0 0; }
       .partners .partner-block .photo-partner3 {
+        margin-top: 30px;
         width: 120px;
         height: 120px;
         background-image: url(../../build/img/sprite.png);
         background-position: -122px -122px; }
       .partners .partner-block .photo-partner4 {
+        margin-top: 30px;
         width: 121px;
         height: 120px;
         background-image: url(../../build/img/sprite.png);
@@ -306,11 +309,13 @@ table {
         background-image: url(../../build/img/sprite.png);
         background-position: -246px -129px; }
       .partners .partner-block .icon-3 {
+        margin-top: 30px;
         width: 41px;
         height: 41px;
         background-image: url(../../build/img/sprite.png);
         background-position: -246px -43px; }
       .partners .partner-block .icon-4 {
+        margin-top: 30px;
         width: 41px;
         height: 41px;
         background-image: url(../../build/img/sprite.png);
@@ -341,7 +346,7 @@ table {
       text-align: center;
       border: 2px solid #ff4e50;
       border-radius: 23px;
-      margin: 30px auto 0 auto; }
+      margin: 27px auto 0 auto; }
     .partners .partners__button:hover {
       border-color: #ff8082; } }
 
@@ -354,7 +359,7 @@ table {
     font-size: 23px;
     color: #333333;
     text-align: center;
-    padding: 40px 25px 10px 25px;
+    padding: 35px 25px 10px 25px;
     margin: 0 auto;
     width: 320px;
     font-family: "Roboto", courier, sans-serif; }
@@ -394,41 +399,43 @@ table {
   .grid-name:hover {
     color: red; }
   .search {
+    width: 320px;
     display: block;
-    padding-bottom: 40px;
+    padding-bottom: 38px;
     margin: 0 auto; }
   .search__title {
     display: inherit;
-    font-size: 26px;
+    width: 275px;
+    font-size: 22px;
+    font-weight: bold;
     color: #333333;
     text-align: center;
-    padding: 100px 25px 40px 25px;
+    padding: 40px 0 18px 0;
     margin: 0 auto;
-    font-family: "Roboto", courier, sans-serif; }
+    font-family: "Montserrat", Arial, sans-serif; }
   .search__text {
     font-size: 18px;
-    padding-bottom: 13px;
+    padding-bottom: 18px;
     display: block;
     text-align: center;
     font-family: "Roboto", courier, sans-serif;
     font-weight: lighter; }
   .search__form {
-    width: 320px;
-    margin: 0 auto; }
+    width: 320px; }
   .search__form input {
     background: #fff;
     border: 1px solid gray;
     border-radius: 6px;
-    margin: 0 auto;
+    margin-left: 19px;
     margin-bottom: 12px;
-    padding: 10px 40px;
+    padding: 10px 56px;
     outline: none; }
   .search__form button {
     background-color: #ff4e50;
     color: #fff;
-    margin: 0 auto;
+    margin-left: 19px;
     border: 2px solid #ff4e50;
-    padding: 12px 50px;
+    padding: 12px 92px;
     border-radius: 33px;
     font-family: "Roboto", courier, sans-serif;
     font-weight: lighter;
@@ -442,11 +449,12 @@ table {
 
 @media screen and (max-width: 767px) {
   footer {
+    width: 320px;
     border-top: 4px solid #ff4e50;
     padding-bottom: 18px;
     position: relative;
     overflow: hidden;
-    margin-top: 40px; }
+    margin: 0 auto; }
   .footer__title {
     margin-top: 20px;
     font-family: "Montserrat", Arial, sans-serif;

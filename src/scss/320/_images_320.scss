@@ -11,7 +11,7 @@
   font-size: 23px;
   color: $darkgray;
   text-align: center;
-  padding: 40px 25px 10px 25px;
+  padding: 35px 25px 10px 25px;
   margin: $center;
   width: 320px;
   font-family: $roboto;
@@ -67,24 +67,27 @@
 }
 
 .search {
+  width: 320px;
   display: block;
-  padding-bottom: 40px;
+  padding-bottom: 38px;
   margin: $center;
 }
 
 .search__title {
   display: inherit;
-  font-size: 26px;
+  width: 275px;
+  font-size: 22px;
+  font-weight: bold;
   color: $darkgray;
   text-align: center;
-  padding: 100px 25px 40px 25px;
+  padding: 40px 0 18px 0;
   margin: $center;
-  font-family: $roboto;
+  font-family: $montserrat;
 }
 
 .search__text {
   font-size: 18px;
-  padding-bottom: 13px;
+  padding-bottom: 18px;
   display: block;
   text-align: center;
   font-family: $roboto;
@@ -92,17 +95,16 @@
 }
 
 .search__form {
-  width: 320px;
-  margin: $center;
-}
+  width: 320px; 
+} 
 
 .search__form input {
   background: $white;
   border: 1px solid gray;
   border-radius: 6px;
-  margin: $center;
+  margin-left: 19px;
   margin-bottom: 12px;
-  padding: 10px 40px;
+  padding: 10px 56px;
   outline: none;
 
 }
@@ -110,9 +112,9 @@
 .search__form button {
   background-color: $button-color;
   color: $white;
-  margin: $center;
+  margin-left: 19px;
   border: 2px solid $button-color; 
-  padding: 12px 50px;
+  padding: 12px 92px;
   border-radius: 33px;
   font-family: $roboto;
   font-weight: lighter;
