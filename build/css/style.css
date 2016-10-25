@@ -261,11 +261,11 @@ table {
       padding: 0 20px; }
     .partners .partner-block {
       width: 200px;
-      height: 206px;
+      height: 210px;
       margin: 20px auto 0 auto;
       position: relative;
       overflow: hidden;
-      margin-bottom: 25px; }
+      margin-bottom: 20px; }
       .partners .partner-block .partner-block--second {
         height: 235px; }
       .partners .partner-block .photo {
