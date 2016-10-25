@@ -1,0 +1,106 @@
+// HEADER 320px Mobile
+@media screen and (max-width: 767px) {
+  header {
+    width: 100%;
+    height: 540px;
+    position: relative;
+    background: url(../../build/img/bg_mobile.jpg) no-repeat;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  .header__container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+    .autorization {
+      width: 196px;
+      margin: 20px auto $center;
+      height: 37px;
+  
+      .log-in, .sign-up {
+        text-decoration: none;
+        display: inline-block;
+        width: 85px;
+        height: 37px;
+        padding-top: 9px;
+        border: 2px solid;
+        border-color: transparent;
+        border-radius: 18px;
+        font-family: $montserrat;
+        color: $white;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        float: left;
+      }
+      
+      .log-in:hover {
+        border-color: $white;
+      }
+      
+      .sign-up:hover {
+        border-color: $white;
+      }
+    }
+  
+  
+  .header-text {
+    margin-top: 116px;
+    color: $white;
+  
+    .header-text__logo {
+      font-family: $montserrat;
+      font-size: 20px;
+      letter-spacing: 1.4px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    
+    .header-text__title {
+      display: block;
+      width: 280px;
+      font-family: $montserrat;
+      font-size: 30px;
+      line-height: 1.25;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 28px auto $center;
+      text-align: center;
+    }
+    
+    .header-text__under-title {
+      width: 220px;
+      margin: 13px auto 0 auto;
+      font-family: $roboto;
+            line-height: 1.25;
+
+      font-size: 18px;
+      font-weight: lighter;
+      text-align: center;
+    }
+    
+    .header-text__button {
+      font-family: $montserrat;
+      font-size: 14px;
+      font-weight: bold;
+      color: $white;
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      width: 280px;
+      height: 40px;
+      margin: 10px auto $center;
+      padding: 12px 0;
+      background-color: $button-color;
+      border-radius: 22px;
+    }
+    
+    .header-text__button:hover {
+      background-color: $button-hover;
+    }
+  }
+}
+

@@ -1,0 +1,9 @@
+[1024/161305:ERROR:process_reader_win.cc(233)] ReadMemory at 0x1a4000 of 49152 bytes failed: Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[1024/161305:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[1024/161306:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения.  (0xc000010a)
+[1024/230847:ERROR:process_info.cc(83)] ReadProcessMemory UNICODE_STRING: Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[1024/230847:ERROR:process_info.cc(542)] ReadProcessData failed
+[1024/230847:ERROR:process_reader_win.cc(233)] ReadMemory at 0x2c1bfc of 12 bytes failed: Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[1024/230847:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[1024/230847:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1024/230848:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения.  (0xc000010a)

@@ -1,0 +1,17 @@
+body {
+  // background-size: 100%;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+// _PARTIALS CONNECTION
+
+@import "main_partials/core";
+@import "320/core_320";
+@import "768/core_768";
+@import "1440/core_1440";

@@ -1,0 +1,84 @@
+// FOOTER 320px Mobile
+@media screen and (max-width: 767px) {	
+footer {
+  border-top: 4px solid $button-color;
+  padding-bottom: 18px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.footer__title {
+  margin-top: 20px;
+  font-family: $montserrat;
+  font-size: 16px;
+  color: $button-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer__company {
+  margin-top: 13px;
+  font-family: $montserrat;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__partners {
+  margin-top: 20px;
+  font-family: $montserrat;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer__navigation {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  margin: 6px auto 0 auto;
+}
+
+.footer__navigation--link {
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-family: $roboto;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #808080;
+  margin-right: 12px;
+  height: 16px;
+}
+
+.footer__navigation--last {
+  margin-right: 0;
+}
+
+.footer__navigation--link:hover {
+  color: #595959;
+}
+
+.footer__logo {
+  margin-top: 17px;
+  img {
+  display: block;
+  margin: 8px auto 0 auto;
+  }
+}
+
+.footer__design {
+  font-family: $montserrat;
+  font-size: 9px;
+  color: #cccccc;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+}

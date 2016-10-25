@@ -1,0 +1,46 @@
+// Global
+
+$center:         0 auto;
+$main-width:     0px;
+$wrapper-width:  0px;
+$font-size:      14px;
+
+// SRC
+
+// Carousel pictures
+$pic1: url(../../build/img/photo1.png);
+$pic2: url(../../build/img/photo2.png);
+$pic3: url(../../build/img/photo3.png);
+// sprites pictures
+$sprite:	url(../../build/img/sprite.png);
+
+// Mixin sprite
+
+@mixin sprite($width, $height, $backImg, $backPos) {
+  width:               $width;
+  height:              $height;
+  background-image:    $backImg;
+  background-position: $backPos;
+}
+
+// Fonts
+
+$roboto:         'Roboto', courier, sans-serif;
+$montserrat:     'Montserrat', Arial, sans-serif;
+
+// Colors
+
+$bg_color:       #F5F5DC;
+$white:          #fff;
+$black:		     #000;
+$darkgray:       #333333;
+$lightgray:      #d3d3d3;
+$button-color:   #ff4e50;
+$button-hover:   #ff8082;
+$active_txt:     #4d2f33;
+
+// Content Colors
+
+$colorText:      $black;
+
+

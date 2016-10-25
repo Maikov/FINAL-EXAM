@@ -1,0 +1,135 @@
+﻿// CAROUSEL 320 px Mobile
+@media screen and (max-width: 767px) {
+  .how-it-works {
+    margin: 37px auto 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .how-it-works__title {
+    font-family: $montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .jcarousel_wrapper {
+      position: relative;
+      overflow: hidden;
+      width: 300px;
+      height: 240px;
+      margin: 11px auto 0 auto;
+      border-radius: 5px;
+  }
+  
+  .jcarousel {
+      position: relative;
+      overflow: hidden;
+  
+      ul {
+          width: 20000em;
+          position: relative;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+      }
+  
+      li {
+          display: block;
+          height: 240px;
+          width: 300px;
+          float: left;
+      }
+  }
+  
+  .jcarousel__li--first {
+    background-image: $pic1;
+    background-position: center;
+  }
+  
+  .jcarousel__li--second {
+    background-image: $pic2;
+    background-position: center;
+  }
+  
+  .jcarousel__li--third {
+    background-image: $pic3;
+    background-position: center;
+  }
+  
+  .jcarousel__text {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    z-index: 2;
+  }
+  
+  .jcarousel__text--button {
+    display: block;
+    text-decoration: none;
+    font-family: $montserrat;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+    color: $white;
+    width: 70px;
+    height: 20px;
+    padding-top: 6px;
+    background-color: $button-color;
+    text-align: center;
+    border-radius: 14px;
+    margin-left: 20px;
+    margin-top: 68px;
+  }
+
+  .jcarousel_wrapper--second {
+  	.jcarousel__text--button {
+  	  margin-top: 100px;
+  	}
+  	.jcarousel__text--text {
+      margin: 10px 0 0 18px;
+    }
+  }
+
+  .jcarousel__text--button:hover {
+    background-color: $button-hover;
+  }
+  
+  .jcarousel__text--title {
+    font-family: $montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: $white;
+    margin: 16px 0 0 19px;
+  }
+  
+  .jcarousel__text--text {
+    font-family: $roboto;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 16px;
+    color: $white;
+    margin: 12px 0 0 19px;
+    width: 265px;
+  }
+  
+ .jcarousel_next {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    z-index: 3;
+    }
+  
+  .jcarousel_prev {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 4;
+  } 
+}

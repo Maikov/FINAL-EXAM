@@ -1,0 +1,148 @@
+// IMAGES SECTION 768px Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+* { box-sizing: border-box; }
+
+.ideas{
+  display: block;
+  position: relative;
+}
+
+.ideas__title {
+  max-width: 768px;
+  font-family: $roboto;
+  color: $darkgray;
+  display: inherit;
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: $center;
+}
+
+.grid.js-grid {
+  max-width: 768px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.grid.js-grid img{
+  width: auto;
+  height: auto;
+ }
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid-item {
+  float: left;
+  width: 236px;
+  height: 310px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.grid-item:nth-child(5),
+.grid-item:nth-child(6) {
+  width: 492px;
+  height: 310px;
+}
+
+.grid-item:nth-child(5) img,
+.grid-item:nth-child(6) img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-name {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: -310px;
+  width: 236px;
+  height: 310px;
+  padding: 10px;
+  font-family: $roboto;
+  font-size: 22px;
+  color: $white;
+  cursor: pointer;
+}
+
+.grid-name p{
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+ .grid-name:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+.grid-name:hover {
+  color: $button-color;
+}
+
+.search {
+  display: block;
+  padding-bottom: 40px;
+}
+
+.search__title {
+  display: inherit;
+  font-size: 26px;
+  font-weight: bold;
+  color: $darkgray;
+  text-align: center;
+  padding: 103px 25px 35px 25px;
+  margin: $center;
+  font-family: $roboto;
+}
+
+.search__text {
+  font-size: 18px;
+  padding-bottom: 13px;
+  display: block;
+  text-align: center;
+  font-family: $roboto;
+  font-weight: lighter;
+}
+
+.search__form {
+  margin: 22px 0px 60px 230px;
+}
+
+.search__form input {
+  background: $white;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin: $center;
+  padding: 11px 35px;
+  outline: none;
+}
+.search__form button {
+  background-color: $button-color;
+  color: $white;
+  margin: $center;
+  margin-left: 5px;
+  border: 2px solid $button-color; 
+  padding: 11px 32px;
+  border-radius: 33px;
+  font-family: $roboto;
+  font-weight: lighter;
+  outline: none;
+  cursor: pointer;
+}
+.search__form button:hover {
+  background-color: rgba(243,152,162,0.7);
+  color: $active_txt;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+}

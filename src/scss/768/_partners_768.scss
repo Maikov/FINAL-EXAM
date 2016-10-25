@@ -1,0 +1,128 @@
+// PARTNERS SECTION 768px Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .partners {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      margin-top: 97px;
+    
+      .partners__container {
+        position: relative;
+        overflow: hidden;
+        width: 512px;
+        margin: $center;
+      }
+      
+      .partners__title {
+        font-family: $montserrat;
+        margin: $center;
+        width: 404px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #333333;
+        text-align: center;
+      }
+      
+      .partner-block {
+        width: 235px;
+        height: 206px;
+        margin: $center;
+        margin: 35px 11px 20px 10px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+      
+            .partner-block--second {
+              height: 235px;
+            }
+
+           .partner-block--right {
+             margin-right: 0;
+            }
+    
+            .photo {
+              display: block;
+              margin: $center;
+              cursor: pointer;
+            }
+    
+            .photo-partner1 {
+              @include sprite(120px, 120px, $sprite, 0 -122px)
+            }
+    
+            .photo-partner2 {
+              @include sprite(120px, 120px, $sprite, -122px -122px)
+            }
+    
+            .photo-partner3 {
+              @include sprite(121px, 120px, $sprite, 0 0)
+            }
+    
+            .photo-partner4 {
+              @include sprite(121px, 120px, $sprite, -123px 0)
+            }
+            
+            .icon {
+              position: absolute;
+              top: 87px;
+              left: 137px;
+            }
+    
+            .icon-1 {
+              @include sprite(41px, 41px, $sprite, -244px 0px)
+            }
+    
+             .icon-2 {
+              @include sprite(41px, 41px, $sprite, -244px -43px)
+            }
+    
+             .icon-3 {
+              @include sprite(41px, 41px, $sprite, -244px -129px)
+            }
+    
+             .icon-4 {
+              @include sprite(41px, 41px, $sprite, -244px -86px)
+            }
+            
+            .partner-block__title {
+              font-family: $montserrat;
+              font-size: 14px;
+              font-weight: bold;
+              color: #333333;
+              text-align: center;
+              margin-top: 18px;
+              cursor: pointer;
+            }
+            
+            .partner-block__text {
+              width: 220px;
+              font-family: $roboto;
+              font-size: 14px;
+              font-weight: lighter;
+              color: #333333;
+              margin-top: 18px;
+              text-align: center;
+            } 
+        }
+  
+        .partners__button {
+          display: block;
+          text-decoration: none;
+          width: 192px;
+          height: 40px;
+          padding: 13px 0;
+          font-size: 14px;
+          font-family: $montserrat;
+          color: $button-color;
+          text-align: center;
+          border: 2px solid $button-color;
+          border-radius: 23px;
+          margin: $center;
+          margin-top: 43px;
+        }
+        
+        .partners__button:hover {
+          border-color: $button-hover;
+        }
+    }
+}
