@@ -41,10 +41,13 @@ function isotopInit() {
 // }
 
 function ajaxRequest(search) {
+	var urlPixabay = "https://pixabay.com/api/";
 	var API_KEY = '3297254-79da6932ff97f2db0b75bf2b8'; // My Reg KEY
-	var URL = "https://pixabay.com/api/?key=" + API_KEY +"&q=" + search + '&image_type=photo&pretty=true&per_page=7&orientation=horizontal';
+	// var URL = "https://pixabay.com/api/?key=" + API_KEY +"&q=" + search + '&image_type=photo&pretty=true&per_page=7&orientation=horizontal';
+	var URL = urlPixabay + '?key=' + API_KEY + '&per_page=7&callback='+ '&q=' + encodeURIComponent(search);
 	$.ajax({
-        dataType: "json",
+        // dataType: "json",
+        dataType: "jsonp",
         url: URL,
 	  success: function(data) {
 	  	console.log(data);
