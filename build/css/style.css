@@ -383,17 +383,16 @@ table {
     width: 300px;
     height: auto;
     top: -50%; }
-  .grid-sizer,
   .grid-item {
     width: 300px;
     height: 120px;
     padding: 5px;
-    border-radius: 4px;
+    border-radius: 10px;
     overflow: hidden;
     position: relative;
-    margin: 0 auto;
-    margin-top: 10px; }
+    margin: 0 auto; }
   .grid-item img {
+    border-radius: 10px;
     top: 0px;
     left: 0;
     top: -50%; }
@@ -403,7 +402,7 @@ table {
     top: 0px;
     width: 300px;
     height: 120px;
-    padding: 10px;
+    padding: 5px;
     font-family: "Roboto", Courier, sans-serif;
     font-size: 22px;
     color: #fff; }
