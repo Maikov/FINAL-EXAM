@@ -17,13 +17,6 @@ function isotopInit() {
 // 	});
 // }
 
-// 	$grid.isotope({
-// 		itemSelector: '.grid-item',
-// 		masonry: {
-//         columnWidth: 300
-//         }
-// 	});
-// }
 
 function ajaxRequest(search) {
 	var urlPixabay = "https://pixabay.com/api/";
