@@ -375,6 +375,10 @@ table {
     margin: 0 auto;
     width: 320px;
     font-family: "Roboto", Courier, sans-serif; }
+  .grid.js-grid {
+    width: 320px;
+    height: auto;
+    margin: 0 auto; }
   .grid.js-grid img {
     width: 300px;
     height: auto;
@@ -383,6 +387,7 @@ table {
   .grid-item {
     width: 300px;
     height: 120px;
+    padding: 5px;
     border-radius: 4px;
     overflow: hidden;
     position: relative;
@@ -838,7 +843,7 @@ table {
     font-weight: bold;
     margin: 0 auto; }
   .grid.js-grid {
-    max-width: 768px;
+    width: 768px;
     margin: 0 auto;
     position: relative; }
   .grid.js-grid img {
@@ -857,7 +862,7 @@ table {
     margin: 5px; }
   .grid-item:nth-child(5),
   .grid-item:nth-child(6) {
-    width: 492px;
+    width: 482px;
     height: 310px; }
   .grid-item:nth-child(5) img,
   .grid-item:nth-child(6) img {
@@ -1337,11 +1342,10 @@ table {
     height: 300px;
     border-radius: 24px;
     overflow: hidden;
-    margin: 5px;
     padding: 5px; }
   .grid-item:nth-child(5),
   .grid-item:nth-child(6) {
-    width: 610px;
+    width: 600px;
     height: 300px; }
   .grid-item:nth-child(5) img,
   .grid-item:nth-child(6) img {
@@ -1420,11 +1424,13 @@ table {
 
 @media screen and (min-width: 1024px) and (max-width: 999999px) {
   footer {
-    border-top: 4px solid #ff4e50;
+    width: 940px;
     padding-bottom: 18px;
     position: relative;
     overflow: hidden;
-    margin-top: 40px; }
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top: 4px solid #ff4e50; }
   .footer__container {
     position: relative;
     overflow: hidden;

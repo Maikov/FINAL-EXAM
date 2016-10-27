@@ -22,8 +22,8 @@
 }
 
 .grid.js-grid {
-  max-width: 768px;
-  margin: 0 auto;
+  width: 768px;
+  margin: $center;
   position: relative;
 }
 
@@ -48,7 +48,7 @@
 
 .grid-item:nth-child(5),
 .grid-item:nth-child(6) {
-  width: 492px;
+  width: 482px;
   height: 310px;
 }
 

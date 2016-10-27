@@ -2,11 +2,13 @@
 @media screen and (min-width: 1024px) and (max-width: 999999px) {
 
 footer {
-  border-top: 4px solid $button-color;
+  width: 940px;
   padding-bottom: 18px;
   position: relative;
   overflow: hidden;
+  margin: $center;
   margin-top: 40px;
+  border-top: 4px solid $button-color;
 }
 
 .footer__container {

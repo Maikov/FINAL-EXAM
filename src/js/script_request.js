@@ -1,11 +1,22 @@
 var $grid = $('.grid');
+
 function isotopInit() {
-	$grid.isotope({
+	var $grid = $('.grid');
+	$grid.masonry({
 		// options
 		itemSelector: '.grid-item',
-		layoutMode: 'fitRows'
+		columnWidth: '.grid-item',
+		percentPosition: true
 	});
-}
+};
+// function isotopInit() {
+// 	$grid.isotope({
+// 		// options
+// 		itemSelector: '.grid-item',
+// 		layoutMode: 'fitRows'
+// 	});
+// }
+
 // 	$grid.isotope({
 // 		itemSelector: '.grid-item',
 // 		masonry: {
@@ -51,9 +62,3 @@ function ajaxRequest(search) {
 		});
 	});
 })(jQuery);
-
-
-
-
-
-
